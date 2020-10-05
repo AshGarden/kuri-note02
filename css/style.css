@@ -374,7 +374,7 @@ header nav li a:hover {
     background: #fff;
     color: #333;
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
     .info h2 {
         text-align: center;
         margin-bottom: 10vw;
@@ -480,11 +480,13 @@ header nav li a:hover {
   font-size: 2rem;
   text-align: center;
 }
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
     .recruit .heading {
         text-align: center;
   }
+}
+@media screen and (max-width: 767px) {
+
 
   .recruit ul {
     transform: none;
