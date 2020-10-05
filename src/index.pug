@@ -1,0 +1,123 @@
+doctype html
+html(lang="ja")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0")
+    title Lotta
+    link(rel="stylesheet" href="css/style.min.css")
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js")
+    script(type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+  body
+    header.header
+      h1 美容院 Lotta
+      section.hamburger
+        a.nav-button(href="#")
+          span
+          span
+          span
+      nav
+        ul
+          li
+            a(href="#") TOP
+          li
+            a(href="#topics") TOPICS
+          li
+            a(href="#info") INFO
+          li
+            a(href="#recruit") RECRUIT
+          li
+            a(href="#contact") CONTACT
+          li.phone 043-215-7822
+    main
+      article.mainvisual
+        ul.slider
+          li
+            img(src="../img/main-visual-i.png" alt="メインヴィジュアル1")
+          li
+            img(src="../img/main-visual-ii.png" alt="メインヴィジュアル2")
+          li
+            img(src="../img/main-visual-iii.png" alt="メインヴィジュアル3")
+          li
+            img(src="../img/main-visual-iv.png" alt="メインヴィジュアル4")
+          li
+            img(src="../img/main-visual-v.png" alt="メインヴィジュアル5")
+        h2 自分らしく
+      article#topics.topics
+        section.content-wrapper
+          .heading
+            h2 TOPICS
+          .content
+            table
+              tbody
+                tr
+                  th 2020/09/24
+                  td シャンプーが泡立たない！
+                tr
+                  th 2020/09/20
+                  td 10月スタイリスト別シフトご案内
+                tr
+                  th 2020/09/10
+                  td ヘアサロン、カラーが先か、パーマが先か
+                tr
+                  th 2020/08/24
+                  td 黒染めってどういうの？Do you Know?
+            p.btn
+              a(href="#") more
+      article#info.info
+        section.content-wrapper
+          .content
+            .heading
+              h2 INFO
+            p
+              | お子様連れのお客様に託児スペースを用意しております。
+            p.btn
+              a(href="#") more
+      article#recruit.recruit
+        section.content-wrapper
+          .heading
+            h2 RECRUIT
+          ul
+            li
+              a(href="#")
+                figure
+                  img(src="../img/recruit.png" alt="")
+                span 正社員・パート募集
+            li
+              a(href="#")
+                figure
+                  img(src="../img/model.png" alt="")
+                span カットモデル募集
+      article#contact.contact
+        ul
+          li
+            a(href="#") CONTACT
+    footer.footer
+      section.content-wrapper
+        .high
+          h1 美容院 Lotta
+          ul
+            li
+              a(href="#topics") TOP
+            li
+              a(href="#topics") TOPICS
+            li
+              a(href="#info") INFO
+            li
+              a(href="#recruit") RECRUIT
+            li
+              a(href="#contact") CONTACT
+        .low
+          | 〒263-0023
+          span 千葉県千葉市稲毛区緑町1-6-4
+          br
+          |       TEL：043-215-7822
+        p ©美容院 Lotta
+    script.
+      $('.slider').slick({
+      autoplay: true,
+      autoplaySpeed: 3000,
+      pauseOnFocus: false,
+      pauseOnHover: false,
+      pauseOnDotsHover: false,
+      dots:true,
+      });

@@ -183,39 +183,28 @@ header nav li a:hover {
     color: #fff;
 }
 @media screen and (max-width: 1199px) {
+    .mainvisual {
+      position: relative;
+    } 
+
     .mainvisual img {
-        height: auto;
-    }
-}
-
-.mainvisual {
-　　position: relative;
-} 
-
-.mainvisual img {
-    height: 700px;
-    width:100vw;
-    object-fit: cover;
-    object-position: 0 15%;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-    clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
-}
-
-.mainvisual h2 {
-    position: absolute;
-    top: 50%;
-    right: 10%;
-    transform: translateY(-50%);
-    z-index: 1;
-    font-size: 5vw;
-    color: #fff;
-}
-
-@media screen and (max-width: 1199px) {
-　　.mainvisual img {
-        height: auto;
+        height: 700px;
         width:100vw;
-　　}
+        object-fit: cover;
+        object-position: 0 15%;
+        -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+        clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
+    }
+
+    .mainvisual h2 {
+        position: absolute;
+        top: 50%;
+        right: 10%;
+        transform: translateY(-50%);
+        z-index: 1;
+        font-size: 5vw;
+        color: #fff;
+      }
 }
 
 @media screen and (max-width: 767px) {
