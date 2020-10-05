@@ -166,6 +166,7 @@ header nav li a:hover {
 
 .mainvisual img {
     height: 700px;
+    width:100vw;
     object-fit: cover;
     object-position: 0 15%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
@@ -192,6 +193,7 @@ header nav li a:hover {
 
 .mainvisual img {
     height: 700px;
+    width:100vw;
     object-fit: cover;
     object-position: 0 15%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
@@ -211,6 +213,7 @@ header nav li a:hover {
 @media screen and (max-width: 1199px) {
 　　.mainvisual img {
 　　　　height: auto;
+       width:100vw;
 　　}
 }
 /* topics */
@@ -343,6 +346,7 @@ header nav li a:hover {
   width:100%;
   color: #fff;
   font-size: 2rem;
+  padding-top:50px;
   margin-bottom: 5vw;
 }
 
