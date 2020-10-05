@@ -166,7 +166,7 @@ header nav li a:hover {
 
 .mainvisual img {
     height: 700px;
-    width:100vw;
+    width: 100vw;
     object-fit: cover;
     object-position: 0 15%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
@@ -176,7 +176,7 @@ header nav li a:hover {
 .mainvisual h2 {
     position: absolute;
     top: 50%;
-    left: 10%;
+    right: 10%;
     transform: translateY(-50%);
     z-index: 1;
     font-size: 5vw;
@@ -187,6 +187,7 @@ header nav li a:hover {
         height: auto;
     }
 }
+
 .mainvisual {
 　　position: relative;
 } 
@@ -203,7 +204,7 @@ header nav li a:hover {
 .mainvisual h2 {
     position: absolute;
     top: 50%;
-    left: 10%;
+    right: 10%;
     transform: translateY(-50%);
     z-index: 1;
     font-size: 5vw;
@@ -212,10 +213,20 @@ header nav li a:hover {
 
 @media screen and (max-width: 1199px) {
 　　.mainvisual img {
-　　　　height: auto;
-    width:100vw;
+        height: auto;
+        width:100vw;
 　　}
 }
+
+@media screen and (max-width: 767px) {
+    .mainvisual h2 {
+    transform: translateY(-50%)skewY(+5deg);
+    top: 70%;
+    right: 10%;
+        font-size: 10vw;
+    }
+}
+
 /* topics */
 
 .topics {
