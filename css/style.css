@@ -185,7 +185,7 @@ header nav li a:hover {
 @media screen and (max-width: 1199px) {
     .mainvisual {
       position: relative;
-    } 
+    }
 
     .mainvisual img {
         height: 700px;
@@ -618,8 +618,8 @@ header nav li a:hover {
     }
 
     .footer .high li {
-      width: calc(100%/3);
-      margin: 0 0 10px;
+        width: calc(100%/3);
+        margin: 0 0 10px;
     }
 
     .footer .high li a {
