@@ -220,9 +220,9 @@ header nav li a:hover {
 
 @media screen and (max-width: 767px) {
     .mainvisual h2 {
-    transform: translateY(-50%)skewY(+5deg);
-    top: 70%;
-    right: 10%;
+        transform: translateY(-50%)skewY(+5deg);
+        top: 70%;
+        right: 10%;
         font-size: 10vw;
     }
 }
@@ -382,32 +382,30 @@ header nav li a:hover {
 }
 
 .info p.btn a:hover {
-  background: #fff;
-  color: #333;
+    background: #fff;
+    color: #333;
 }
 @media screen and (max-width: 767px) {
-  .info h2 {
-    text-align: center;
-    margin-bottom: 10vw;
-}
-.info p {
-    text-align: center;
-    margin:0 auto 10vw ;
-}
-.info p.btn a {
-  width: 30%;
-  min-width: 200px;
-  margin: 0 auto;
-}
+    .info h2 {
+        text-align: center;
+        margin-bottom: 10vw;
+    }
+    .info p {
+        text-align: center;
+        margin:0 auto 10vw ;
+    }
+    .info p.btn a {
+        width: 30%;
+        min-width: 200px;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 479px) {
     .info .content {
-    left: 50%;
-    transform: translate(-50%,-50%);
+        left: 50%;
+        transform: translate(-50%,-50%);
 }
-
-
 
   .info p.btn a {
     width: 30%;
@@ -495,8 +493,8 @@ header nav li a:hover {
 }
 
 @media screen and (max-width: 767px) {
-  .recruit .heading {
-    text-align: center;
+    .recruit .heading {
+        text-align: center;
   }
 
   .recruit ul {
@@ -510,11 +508,12 @@ header nav li a:hover {
 }
 
 @media screen and (max-width: 479px) {
-  .recruit ul li {
-    width: 90%;
-    margin: 0 auto 20px auto;
+    .recruit ul li {
+        width: 90%;
+        margin: 0 auto 20px auto;
   }
 }
+
 /* Contact */
 .contact {
     width: 100%;
@@ -642,7 +641,7 @@ header nav li a:hover {
 }
 
 @media screen and (max-width: 479px) {
-    .footer .high h1,.low {
+    .footer .high h1, .low {
         text-align: center;
     }
 }
