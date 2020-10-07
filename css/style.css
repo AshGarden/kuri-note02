@@ -617,6 +617,7 @@ header nav li a:hover {
     }
 
     .footer .high li a {
+        font-size: 12px;
         display: block;
         text-align: center;
         padding: 0;
