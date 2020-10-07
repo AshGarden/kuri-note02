@@ -33,7 +33,7 @@ jQuery(function($){
 	    //　ウィンドウの最下部の位置取得
       var scrollPos = winScroll + winHeight;
 	    //　指定した要素が画面内に入ったらclass付与して出たら削除
-      if(target.offset().top - 100 < scrollPos && nextElement.offset().top + winHeight + 100 > scrollPos) {
+      if(target.offset().top - 100 < scrollPos && nextElement.offset().top + winHeight + 0 > scrollPos) {
           target.addClass('show');
       }else{
           target.removeClass('show');
