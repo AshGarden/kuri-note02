@@ -168,7 +168,7 @@ header nav li a:hover {
     height: 700px;
     width: 100vw;
     object-fit: cover;
-    object-position: 0 15%;
+    object-position: 0 0%;
     -webkit-clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
     clip-path: polygon(0 0, 100% 0%, 100% 85%, 0% 100%);
 }
@@ -215,7 +215,12 @@ header nav li a:hover {
         font-size: 10vw;
     }
 }
-
+@media screen and (max-width: 479px) {
+  .mainvisual img {
+    object-fit: cover;
+    object-position: top center;
+  }
+}
 /* topics */
 
 .topics {
@@ -329,19 +334,26 @@ header nav li a:hover {
 }
 /* info  */
 .info {
-    background: url(../img/bg-i.png);
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 500px;
     position: relative;
     z-index: 1;
     width: 100%;
 }
+
+.show:before {
+	background: url(../img/bg-i.png) no-repeat center center /cover;
+	content: "";
+	height: 500px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: -1;
+}
 .info h2, .info p {
     text-align: left;
 }
+
 .info h2 {
     width:100%;
     color: #fff;
@@ -374,6 +386,7 @@ header nav li a:hover {
     background: #fff;
     color: #333;
 }
+
 @media screen and (max-width: 1199px) {
     .info h2 {
         text-align: center;
@@ -388,19 +401,6 @@ header nav li a:hover {
         min-width: 200px;
         margin: 0 auto;
     }
-}
-
-@media screen and (max-width: 479px) {
-    .info .content {
-        left: 50%;
-        transform: translate(-50%,-50%);
-}
-
-  .info p.btn a {
-    width: 30%;
-    min-width: 200px;
-    margin: 0 auto;
-  }
 }
 
 /* 募集欄 */
@@ -423,7 +423,7 @@ header nav li a:hover {
 
 .recruit::after {
   content: "";
-  background-color: #f3f3f3;
+  background-color:rgba(211, 211, 211, 0.3);
   height: 150%;
   width: 40%;
   position: absolute;
