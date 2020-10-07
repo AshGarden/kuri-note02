@@ -511,13 +511,12 @@ header nav li a:hover {
     align-items: center;
 }
 
-.contact:after {
+.contact::after {
     position: absolute;
     content: "";
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.3);
-    z-index: -1;
 }
 
 .contact ul {
@@ -546,7 +545,7 @@ header nav li a:hover {
 }
 
 .contact li a:hover {
-    background: rgba(255, 255, 255, .3);
+    background: #fff;
     color: #333;
 }
 .footer section {
