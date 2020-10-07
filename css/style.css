@@ -408,6 +408,13 @@ header nav li a:hover {
     }
 }
 
+@media screen and (max-width: 767px) {
+.show:before {
+    transform: none;
+    }
+}
+
+
 /* 募集欄 */
 .recruit {
     padding: 10% 0;
