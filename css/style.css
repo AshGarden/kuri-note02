@@ -214,6 +214,10 @@ header nav li a:hover {
         right: 10%;
         font-size: 10vw;
     }
+    .mainvisual img {
+      object-fit: cover;
+      object-position: top center;
+    }
 }
 @media screen and (max-width: 479px) {
   .mainvisual img {
@@ -486,23 +490,21 @@ header nav li a:hover {
   }
 }
 @media screen and (max-width: 767px) {
-
-
-  .recruit ul {
+.recruit ul {
     transform: none;
-  }
+}
 
-  .recruit li span {
+.recruit li span {
     transform: translate(-50%,-50%);
     font-size: 1.75rem;
-  }
+    }
 }
 
 @media screen and (max-width: 479px) {
     .recruit ul li {
         width: 90%;
         margin: 0 auto 20px auto;
-  }
+    }
 }
 
 /* Contact */
