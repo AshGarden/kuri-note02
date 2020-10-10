@@ -184,7 +184,7 @@ header nav li a:hover {
 }
 @media screen and (max-width: 1199px) {
     .mainvisual {
-      position: relative;
+        position: relative;
     }
 
     .mainvisual img {
@@ -204,7 +204,7 @@ header nav li a:hover {
         z-index: 1;
         font-size: 5vw;
         color: #fff;
-      }
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -215,15 +215,15 @@ header nav li a:hover {
         font-size: 10vw;
     }
     .mainvisual img {
-      object-fit: cover;
-      object-position: top center;
+        object-fit: cover;
+        object-position: top center;
     }
 }
 @media screen and (max-width: 479px) {
-  .mainvisual img {
-    object-fit: cover;
-    object-position: top center;
-  }
+    .mainvisual img {
+        object-fit: cover;
+        object-position: top center;
+    }
 }
 /* topics */
 
@@ -347,9 +347,9 @@ header nav li a:hover {
 .show:before {
 	background: url(../img/bg-i.png) no-repeat center center /cover;
 	content: "";
-	height: 500px;
+	height: 96%;
 	position: fixed;
-	top: 0;
+	top: 2%;
 	left: 0;
 	width: 100%;
 	z-index: -1;
@@ -361,14 +361,14 @@ header nav li a:hover {
 
 .info h2 {
     width:100%;
-    color: #fff;
+    color: #ccc;
     font-size: 2rem;
     padding-top:50px;
     margin-bottom: 5vw;
 }
 
 .info p {
-    color: #fff;
+    color: #ccc;
     margin-bottom: 70px;
     text-align: left;
 }
@@ -378,10 +378,10 @@ header nav li a:hover {
 }
 
 .info p.btn a {
-    color: #fff;
+    color: #ccc;
     display: block;
     font-size: 0.875rem;
-    border: 1px solid #fff;
+    border: 1px solid #ccc;
     width: 200px;
     line-height: 60px;
     text-align: center;
@@ -422,7 +422,7 @@ header nav li a:hover {
 }
 
 .recruit .heading {
-    color:#fff;
+    color:#ccc;
     width: 100%;
     margin:0 auto;
     padding:0 0 40px;
@@ -556,8 +556,11 @@ header nav li a:hover {
     background: #fff;
     color: #333;
 }
-.footer section {
+.footer {
+    max-width:100%;
     padding-top: 120px;
+    background: #fff;
+    z-index: -1;
 }
 
 .footer .high {
