@@ -65,6 +65,15 @@ section h2 {
     font-size: 2rem;
 }
 
+.fadein {
+    opacity : 0;
+    transform : translate(0, 50px);
+    transition:all 0.5s;
+}
+.fadein.scrollin {
+    opacity : 1;
+    transform : translate(0, 0);
+}
 /* ヘッダー部分 */
 
 .header {
